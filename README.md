@@ -2,7 +2,13 @@
 
 A modern, responsive teacher management interface built with Next.js, TypeScript, and Tailwind CSS. This application provides a comprehensive solution for managing teacher profiles, schedules, and qualifications with a clean, user-friendly interface.
 
-## 🚀 Features
+## Live Demo
+
+**Deployed Application**: [https://pearl-thoughts-frontend-developer-teachermanag-10tgvj2bp.vercel.app/](https://pearl-thoughts-frontend-developer-teachermanag-10tgvj2bp.vercel.app/)
+
+**Demo Video**: [View Demo](https://drive.google.com/file/d/1EkmXWtvwtLHz8LmPaxLmcDPkvZChAo7F/view?usp=sharing)
+
+## Features
 
 ### Core Functionality
 - **Teacher Profile Management**: Complete profile editing with personal, contact, and address information
@@ -18,7 +24,7 @@ A modern, responsive teacher management interface built with Next.js, TypeScript
 - **Performance**: Optimized rendering and state management
 - **Mobile Responsive**: Touch-friendly interactions and optimized layouts
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Framework**: Next.js 14 (App Router)
 - **Language**: TypeScript
@@ -27,38 +33,38 @@ A modern, responsive teacher management interface built with Next.js, TypeScript
 - **Icons**: Lucide React
 - **State Management**: React Hooks (useState)
 
-## 📦 Installation
+## Installation
 
-1. **Clone the repository**
-   \`\`\`bash
-   git clone <your-repo-url>
-   cd teacher-management-system
-   \`\`\`
+### 1. Clone the repository
+```bash
+git clone <your-repo-url>
+cd teacher-management-system
+```
 
-2. **Install dependencies**
-   \`\`\`bash
-   npm install
-   # or
-   yarn install
-   # or
-   pnpm install
-   \`\`\`
+### 2. Install dependencies
+```bash
+npm install
+# or
+yarn install
+# or
+pnpm install
+```
 
-3. **Run the development server**
-   \`\`\`bash
-   npm run dev
-   # or
-   yarn dev
-   # or
-   pnpm dev
-   \`\`\`
+### 3. Run the development server
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+```
 
-4. **Open your browser**
-   Navigate to [http://localhost:3000](http://localhost:3000)
+### 4. Open your browser
+Navigate to [http://localhost:3000](http://localhost:3000)
 
-## 🏗️ Project Structure
+## Project Structure
 
-\`\`\`
+```
 ├── app/
 │   ├── globals.css
 │   ├── layout.tsx
@@ -74,9 +80,9 @@ A modern, responsive teacher management interface built with Next.js, TypeScript
 │   └── utils.ts           # Utility functions
 └── public/
     └── reference-image.png # Original design reference
-\`\`\`
+```
 
-## 🎨 Design Decisions
+## Design Decisions
 
 ### UI/UX Improvements
 - **Modern Card-based Layout**: Replaced table-heavy design with card components
@@ -97,7 +103,7 @@ A modern, responsive teacher management interface built with Next.js, TypeScript
 - **Color Contrast**: WCAG AA compliant color combinations
 - **Screen Reader Support**: Proper labeling and descriptions
 
-## 🔧 Key Components
+## Key Components
 
 ### TeacherManagement
 Main container component that manages the overall application state and navigation.
@@ -114,7 +120,7 @@ Interactive weekly calendar with event management and mobile-optimized views.
 ### QualificationsManager
 Dual-table system for managing private and group qualifications with CRUD operations.
 
-## 📱 Mobile Responsiveness
+## Mobile Responsiveness
 
 - **Breakpoints**: Tailored for mobile (< 768px), tablet (768px-1024px), and desktop (> 1024px)
 - **Navigation**: Collapsible sidebar with overlay on mobile
@@ -122,6 +128,21 @@ Dual-table system for managing private and group qualifications with CRUD operat
 - **Forms**: Optimized input sizes and spacing for touch devices
 - **Calendar**: Stacked day view for mobile, grid view for desktop
 
-## Video link: [video](https://drive.google.com/file/d/1EkmXWtvwtLHz8LmPaxLmcDPkvZChAo7F/view?usp=sharing)
+## Getting Started
 
-## Deployed app link:
+1. Visit the [live demo](https://pearl-thoughts-frontend-developer-teachermanag-10tgvj2bp.vercel.app/) to see the application in action
+2. Follow the installation instructions above to run locally
+3. Explore the different sections: Profile, Schedule, and Qualifications
+4. Test the responsive design by resizing your browser window
+
+## Contributing
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
